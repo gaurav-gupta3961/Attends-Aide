@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.StudentSchedule"
+    android:id="@+id/draw2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ExpandableListView
+            android:id="@+id/exlistView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:childDivider="@color/transparent"
+            android:divider="@color/transparent"
+            android:padding="12dp"/>
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu_stud"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/navigation_header_stud"
+        android:id="@+id/nv2"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

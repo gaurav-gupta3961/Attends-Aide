@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuStud">
+    <group>
+        <item android:id="@+id/Account"
+            android:title="My Account"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:iconTint="@color/colorAccent" />
+    </group>
+    <group>
+        <item android:id="@+id/QR"
+            android:title="MY QR"
+            android:icon="@drawable/ic_qr"
+            android:iconTint="@color/colorAccent"
+            />
+    </group>
+    <group>
+        <item android:id="@+id/myattendance"
+            android:title="My Attendance"
+            android:icon="@drawable/ic_atend"
+            android:iconTint="@color/colorAccent"
+            />
+    </group>
+
+    <group>
+        <item android:id="@+id/logOUT"
+            android:title="LOG Out"
+            android:icon="@drawable/ic_logout"
+            android:iconTint="@color/colorAccent"
+            />
+    </group>
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:id="@+id/GenerateList"
+            android:title="Generate List"
+            android:icon="@drawable/ic_show_attendance"
+            android:iconTint="@color/colorAccent"
+            />
+    </group>
+    <group>
+        <item android:id="@+id/logOUT"
+            android:title="LOG Out"
+            android:icon="@drawable/ic_logout"
+            android:iconTint="@color/colorAccent"
+            />
+    </group>
+</menu>

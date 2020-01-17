@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "893911794621",
+    "firebase_url": "https://studentphoto-80f91.firebaseio.com",
+    "project_id": "studentphoto-80f91",
+    "storage_bucket": "studentphoto-80f91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893911794621:android:87063aebb709e9f0",
+        "android_client_info": {
+          "package_name": "com.example.attendancemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893911794621-elevtbtdf50hshd5eh13qkidig5v1mbc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.attendancemanager",
+            "certificate_hash": "12fa49a4962fc9878652a17b208dda7bdce79cbd"
+          }
+        },
+        {
+          "client_id": "893911794621-2llf9sn8h1k0ougumdhith3bbin0oi89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXENv6RE-2Sm-woSAAkRgLYV3fATZWqso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893911794621-2llf9sn8h1k0ougumdhith3bbin0oi89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

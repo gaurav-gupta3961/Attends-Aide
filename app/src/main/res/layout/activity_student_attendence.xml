@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Student.StudentAttendence"
+android:id="@+id/draw1" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Attendance:"
+    android:textColor="@color/black"
+    android:textSize="21sp"
+    android:gravity="center_vertical"
+    android:background="@color/c4"
+    android:padding="12dp"/>
+
+<ExpandableListView
+    android:id="@+id/expandablestudentattendence"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp"/>
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

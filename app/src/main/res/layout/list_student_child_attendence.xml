@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/bottom_child">
+
+
+    <ImageView
+        android:id="@+id/imageViewchild233"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:clickable="false"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+
+    <TextView
+        android:id="@+id/textViewstudentchildattendence"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:text="hello every one\n how are you"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <ProgressBar
+            android:id="@+id/progresssafe"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="3dp"
+            android:elevation="1dp"
+            android:progress="80"
+            android:progressDrawable="@drawable/halo"
+            android:rotation="270"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/progressunsafe"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="3dp"
+            android:elevation="2dp"
+            android:progress="30"
+            android:progressDrawable="@drawable/hale_unsafe"
+            android:rotation="270"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/progress_"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="3dp"
+            android:progress="100"
+            android:visibility="visible"
+            android:progressDrawable="@drawable/halo_normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/c1"
+            android:textSize="10sp"
+            android:text="Attendance"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/progress_" />
+
+        <TextView
+            android:id="@+id/textviewpercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="75%"
+            android:textColor="@color/c1"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/progress_"
+            app:layout_constraintEnd_toEndOf="@+id/progress_"
+            app:layout_constraintStart_toStartOf="@+id/progress_"
+            app:layout_constraintTop_toTopOf="@+id/progress_" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

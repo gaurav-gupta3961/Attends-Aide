@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.attendancemanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="Attend"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Student.studentActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Student.StudentAttendence"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teacher.TeacherActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Student.StudentQr"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Student.StudentSchedule"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Student.StudentUploadImage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin.LessAttendence"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin.LessAttendenceEx"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teacher.ListOfAbsentees"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teacher.SeeAttendence"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teacher.StartAttendence"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teacher.AddAClass"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Teacher.TeacherSchedule"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Teacher.teacherWaitPage"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin.DetailsOfSelectedTeacher"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teacher.SignUpAsTeacher2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Student.SignUpAsStudent2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Admin.LoginAsAdministrator"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Student.SignUpAsStudent"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Teacher.SignUpAsTeacher"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teacher.TakeAttendence"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+</manifest>

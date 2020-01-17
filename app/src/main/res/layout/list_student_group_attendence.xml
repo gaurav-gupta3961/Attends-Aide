@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="60dp"
+android:paddingTop="5dp">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tab_back">
+
+    <TextView
+        android:id="@+id/textViewstudentgroupattendence"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

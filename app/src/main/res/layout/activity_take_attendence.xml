@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher.TakeAttendence">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+
+
+        <SurfaceView
+            android:id="@+id/sv1"
+            android:layout_width="174dp"
+            android:layout_height="232dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewClassheader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/c0"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="16sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            >
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ProgressBar
+                    android:id="@+id/progressBarTake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageOfStudent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/imageOfStudent"
+                    app:layout_constraintTop_toTopOf="@+id/imageOfStudent"
+                    android:indeterminateTint="@color/c2"/>
+
+                <ImageView
+                    android:id="@+id/imageOfStudent"
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="12dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="12dp"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/sv1"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:minLines="2"
+                    android:fontFamily="sans-serif"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textColor="@color/c1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/buttonDisApproveAttendence"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/oval_discard"
+                            android:onClick="disapprove"
+                            android:src="@drawable/ic_close"
+                            android:visibility="invisible"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toEndOf="@+id/buttonApproveAttendence"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                        <ImageButton
+                            android:id="@+id/buttonApproveAttendence"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:visibility="invisible"
+                            android:background="@drawable/oval_allow"
+                            android:onClick="approve"
+                            android:src="@drawable/ic_right"
+                            app:layout_constraintEnd_toStartOf="@+id/buttonDisApproveAttendence"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttoncloseAttendence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20dp"
+        android:onClick="closeAttendence"
+        android:text="Close Attendance"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radioGroupSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:showDividers="middle"
+        android:divider="@color/black"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButtonupdate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif"
+            android:text="Update"
+            android:textAlignment="textStart"
+            android:layoutDirection="rtl"
+            android:textSize="24sp"
+            android:textColorHighlight="@color/c2"
+            android:buttonTint="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/radioButtondelete"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layoutDirection="rtl"
+            android:text="Delete"
+            android:buttonTint="@color/black"
+            android:textColorHighlight="@color/c2"
+            android:textAlignment="textStart"
+            android:fontFamily="sans-serif"
+            android:textSize="24sp" />
+    </RadioGroup>
+</LinearLayout>

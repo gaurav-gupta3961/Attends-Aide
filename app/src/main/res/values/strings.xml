@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Attendance Manager</string>
+    <string name="Open">Attendance Manager</string>
+    <string name="Close">Attendance Manager</string>
+
+    <string-array name="subjects">
+        <item>Analog And Digital Electronics</item>
+        <item>Data Structure</item>
+        <item>Foundation Of Logical Thought</item>
+        <item>Management Of IT Industries</item>
+        <item>Object Oriented Programming</item>
+    </string-array>
+    <string-array name="branch">
+        <item>Computer Science Engineering</item>
+        <item>Electronics and Communication Engineering</item>
+        <item>Information Technology Engineering</item>
+    </string-array>
+    <string-array name="year">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>>
+    </string-array>
+    <string-array name="fgroup">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="group">
+        <item>CS_A</item>
+        <item>CS_B</item>
+        <item>CS_C</item>
+        <item>IT_A</item>
+        <item>IT_B</item>
+        <item>EC_A</item>
+        <item>EC_B</item>
+
+    </string-array>
+    <string-array name="subgroup">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

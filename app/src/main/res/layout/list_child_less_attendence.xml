@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="250dp"
+        android:paddingHorizontal="24dp"
+        android:layout_height="90dp"
+        android:text="TextView"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:drawablePadding="12dp"
+        android:drawableTint="@color/black"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:textSize="16sp"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <ProgressBar
+            android:id="@+id/progresssafe3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="3dp"
+            android:elevation="1dp"
+            android:progress="80"
+            android:progressDrawable="@drawable/halo"
+            android:rotation="270"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/progressunsafe3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="3dp"
+            android:elevation="2dp"
+            android:progress="30"
+            android:progressDrawable="@drawable/hale_unsafe"
+            android:rotation="270"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/progress_3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="3dp"
+            android:progress="100"
+            android:visibility="visible"
+            android:progressDrawable="@drawable/halo_normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Attendance"
+            android:textColor="@color/c1"
+            android:textSize="10sp"
+            app:layout_constraintTop_toBottomOf="@id/progress_3"
+            tools:layout_editor_absoluteX="5dp" />
+
+        <TextView
+            android:id="@+id/textviewpercentage3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="75%"
+            android:textColor="@color/c1"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/progress_3"
+            app:layout_constraintEnd_toEndOf="@+id/progress_3"
+            app:layout_constraintStart_toStartOf="@+id/progress_3"
+            app:layout_constraintTop_toTopOf="@+id/progress_3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
