@@ -16,8 +16,13 @@ width = "250" height = "400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  <img src =
 <img src = "https://user-images.githubusercontent.com/59910077/72679498-b8237d00-3ad5-11ea-9163-d024b3f013f7.jpg" width = "250" height = "400"/>
 
 <h3>3.Creating,deleting,Updating Class Time Table By Teachers.<br>
- Accessing updated their Class Time Table By Students</h3>
+  Accessing updated their Class Time Table By Students.</h3>
  
  <img src ="https://user-images.githubusercontent.com/59910077/72679685-6e3b9680-3ad7-11ea-921c-0f16b01f75cc.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72679756-50226600-3ad8-11ea-99db-f776b870c77a.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72679769-71835200-3ad8-11ea-92cf-fefd926bb22a.jpg" width = "250" height="400"/>
+
+<h3>Taking Attendence through QR SCanner System</h3>
+
+ <img src ="https://user-images.githubusercontent.com/59910077/72679685-6e3b9680-3ad7-11ea-921c-0f16b01f75cc.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72679756-50226600-3ad8-11ea-99db-f776b870c77a.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72679769-71835200-3ad8-11ea-92cf-fefd926bb22a.jpg" width = "250" height="400"/>
+
 
 
