@@ -28,7 +28,7 @@ width = "250" height = "400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  <img src =
  <li> Teacher can send Email to students whose Attendance is lower than 75%</li>
      <li> Accessing Attendance By teachers as well as Students.</li></ul</h2>
       
-  <img src ="https://user-images.githubusercontent.com/59910077/72680145-79dd8c00-3adc-11ea-8559-09e381caa3cc.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72680166-e48ec780-3adc-11ea-805c-27e482e4372b.jpg" width = "250" height="400"/><img src ="https://user-images.githubusercontent.com/59910077/72680188-1a33b080-3add-11ea-9d52-8541bebebcc7.jpg" width = "250" height="400"/><br><br><br>
+  <img src ="https://user-images.githubusercontent.com/59910077/72680145-79dd8c00-3adc-11ea-8559-09e381caa3cc.jpg" width = "250" height="400"/><img src ="https://user-images.githubusercontent.com/59910077/72680166-e48ec780-3adc-11ea-805c-27e482e4372b.jpg" width = "250" height="400"/><img src ="https://user-images.githubusercontent.com/59910077/72680188-1a33b080-3add-11ea-9d52-8541bebebcc7.jpg" width = "250" height="400"/><br><br><br>
   
  
       
