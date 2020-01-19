@@ -16,7 +16,7 @@ width = "250" height = "400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  <img src =
 <img src = "https://user-images.githubusercontent.com/59910077/72679498-b8237d00-3ad5-11ea-9163-d024b3f013f7.jpg" width = "250" height = "400"/><br><br><br>
 
 <h2>3.<ul style="list-style-type:disc;"><li>Creating,deleting,Updating Class Time Table By Teachers.</li>
-<li> Accessing updated their Class Time Table By Students.</li></ul></h2>
+<li> Accessing their updated  Class Time Table By Students.</li></ul></h2>
  
  <img src ="https://user-images.githubusercontent.com/59910077/72679685-6e3b9680-3ad7-11ea-921c-0f16b01f75cc.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72679756-50226600-3ad8-11ea-99db-f776b870c77a.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72679769-71835200-3ad8-11ea-92cf-fefd926bb22a.jpg" width = "250" height="400"/><br><br><br>
 
@@ -26,7 +26,7 @@ width = "250" height = "400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  <img src =
  
  <h2>5.<ul style="list-style-type:disc;"><li>Retrieving Absentees List per day By Teachers</li>
  <li> Teacher can send Email to students whose Attendance is lower than 75%</li>
-     <li> Accessing Attendance By teachers as well as Students.</li></ul</h2>
+     <li> Accessing Attendance By teachers as well as Students.</li></ul</h2><br>
       
   <img src ="https://user-images.githubusercontent.com/59910077/72680145-79dd8c00-3adc-11ea-8559-09e381caa3cc.jpg" width = "250" height="400"/>&nbsp; &nbsp; &nbsp;<img src ="https://user-images.githubusercontent.com/59910077/72680166-e48ec780-3adc-11ea-805c-27e482e4372b.jpg" width = "250" height="400"/>&nbsp; &nbsp; &nbsp;<img src ="https://user-images.githubusercontent.com/59910077/72680188-1a33b080-3add-11ea-9d52-8541bebebcc7.jpg" width = "250" height="400"/><br><br><br>
   
