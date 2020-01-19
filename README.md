@@ -15,6 +15,8 @@ width = "250" height = "400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  <img src =
 <img src = "https://user-images.githubusercontent.com/59910077/72679458-59f69a00-3ad5-11ea-8dfb-c934d82f9d19.jpg" width = "250" height = "400"/> &nbsp;   &nbsp; &nbsp;  &nbsp;  &nbsp;
 <img src = "https://user-images.githubusercontent.com/59910077/72679498-b8237d00-3ad5-11ea-9163-d024b3f013f7.jpg" width = "250" height = "400"/>
 
-
+<h3>Creating,deleting,Updating Class Time Table By Teachers.
+ Accessing updated their Class Time Table</h3>
+ <img src ="https://user-images.githubusercontent.com/59910077/72679685-6e3b9680-3ad7-11ea-921c-0f16b01f75cc.jpg" width = "250" height="400"/>
 
 
