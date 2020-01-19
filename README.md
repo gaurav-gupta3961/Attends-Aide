@@ -5,4 +5,5 @@ QR Code and Scanner system is implemented in order to take Attendance. Accessing
  
 ## Silent Features
 1.Login and Logout System for user.
-<img src = "f35eba78-eec6-4f94-b284-25af455dc531.jpg"/>
+
+<img src = "https://user-images.githubusercontent.com/59910077/72678925-73e1ae00-3ad0-11ea-992a-bc124a8874f8.jpg" width = "250" height = "400"/>
