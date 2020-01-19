@@ -27,7 +27,7 @@ width = "250" height = "400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  <img src =
  <h2>5.Retrieving Absentees List per day By Teachers<br>
       Accessing Attendance By teachers as well as Students.</h2>
       
-      <img src ="https://user-images.githubusercontent.com/59910077/72679685-6e3b9680-3ad7-11ea-921c-0f16b01f75cc.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72680166-e48ec780-3adc-11ea-805c-27e482e4372b.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72679769-71835200-3ad8-11ea-92cf-fefd926bb22a.jpg" width = "250" height="400"/><br><br><br>
+      <img src ="https://user-images.githubusercontent.com/59910077/72679685-6e3b9680-3ad7-11ea-921c-0f16b01f75cc.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72680166-e48ec780-3adc-11ea-805c-27e482e4372b.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72680188-1a33b080-3add-11ea-9d52-8541bebebcc7.jpg" width = "250" height="400"/><br><br><br>
       
       
 
