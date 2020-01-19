@@ -22,7 +22,7 @@ width = "250" height = "400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  <img src =
 
 <h3>Taking Attendence through QR SCanner System</h3>
 
- <img src ="https://user-images.githubusercontent.com/59910077/72679685-6e3b9680-3ad7-11ea-921c-0f16b01f75cc.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72679756-50226600-3ad8-11ea-99db-f776b870c77a.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72679769-71835200-3ad8-11ea-92cf-fefd926bb22a.jpg" width = "250" height="400"/>
+ <img src ="https://user-images.githubusercontent.com/59910077/72679903-edca6500-3ad9-11ea-8e53-77c495386a96.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72679756-50226600-3ad8-11ea-99db-f776b870c77a.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72679769-71835200-3ad8-11ea-92cf-fefd926bb22a.jpg" width = "250" height="400"/>
 
 
 
