@@ -25,6 +25,7 @@ width = "250" height = "400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  <img src =
  <img src ="https://user-images.githubusercontent.com/59910077/72680242-97f7bc00-3add-11ea-8347-c1f797bc1fe9.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72679912-19e5e600-3ada-11ea-97d9-816d7d0f9d86.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72679923-413cb300-3ada-11ea-84b1-bc21e7f2bcef.jpg" width = "250" height="400"/><br><br><br>
  
  <h2>5.Retrieving Absentees List per day By Teachers<br>
+       Teacher can send Email to students whose Attendance is lower than 75%<br>
       Accessing Attendance By teachers as well as Students.</h2>
       
   <img src ="https://user-images.githubusercontent.com/59910077/72680145-79dd8c00-3adc-11ea-8559-09e381caa3cc.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72680166-e48ec780-3adc-11ea-805c-27e482e4372b.jpg" width = "250" height="400"/> &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img src ="https://user-images.githubusercontent.com/59910077/72680188-1a33b080-3add-11ea-9d52-8541bebebcc7.jpg" width = "250" height="400"/><br><br><br>
